@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsesg8gldod8j"]
+
+[ext_resource type="Script" path="res://src/dungeon/RoomBase/RoomBase.gd" id="1_tekni"]
+[ext_resource type="PackedScene" uid="uid://dhc752wj3xp6f" path="res://src/dungeon/MapBase/MapBase.tscn" id="2_lqjys"]
+
+[node name="RoomBase" type="Node2D"]
+script = ExtResource("1_tekni")
+
+[node name="MapBase" parent="." instance=ExtResource("2_lqjys")]

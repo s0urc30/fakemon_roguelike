@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+_global_script_classes=[{
+"base": "Node2D",
+"class": &"RoomBase",
+"language": &"GDScript",
+"path": "res://src/dungeon/RoomBase/RoomBase.gd"
+}]
+_global_script_class_icons={
+"RoomBase": ""
+}
+
+[application]
+
+config/name="Fakemon Rogue"
+run/main_scene="res://src/main/main.tscn"
+config/features=PackedStringArray("4.0", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/resizable=false
